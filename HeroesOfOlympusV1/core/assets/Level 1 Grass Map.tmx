@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="14">
+ <tileset firstgid="1" source="graphics_tilesets_magecity.tsx"/>
+ <tileset firstgid="361" source="hf1_a2.tsx"/>
+ <tileset firstgid="553" source="graphics_tilesets_docks2.tsx"/>
+ <layer id="1" name="WaterBase" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyzYmBgsBrFo3gUj+JRPIpJxAAAJFqh
+  </data>
+ </layer>
+ <layer id="3" name="Grass" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyrYmRgqATiKiw0LoBLPSF61LxR80bNGzVv1LzhYx4A3zWF/Q==
+  </data>
+ </layer>
+ <layer id="2" name="WaterOutline" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANDIHYCA0b41FPCFhiEbMeNW/UvFHzRs0bNW/AzQOW7QeM0DCwDjiATw8Am0cPAQ==
+  </data>
+ </layer>
+ <layer id="4" name="Docks" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFMGDExMBgDMQmTKhscoETUK8zELswobLJBUFAvcFAHMKEyh6ugBbx0UWj+KiCmk1JfIzG72h+G2oAAAI3ETM=
+  </data>
+ </layer>
+ <layer id="5" name="DockOutline" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFMKDHxMCgD8QGSLQh00C7CgHsgG6xB2IHJNpxELmP2mCwxwe1wWj8Dq74HWnxQQ4AAPKACBc=
+  </data>
+ </layer>
+ <layer id="6" name="Bush" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBicYDYjaeKjADcYDbOBAaBwJxT2xKihlXmjgHaA1DgYqnEGAHY8B+0=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Effect">
+  <object id="1" name="Slow" x="256" y="128" width="64" height="64">
+   <properties>
+    <property name="Effect" value="Slow"/>
+    <property name="Movement Speed" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="2" name="Impassable" x="448" y="0" width="384" height="192">
+   <properties>
+    <property name="Effect" value="Impassable"/>
+   </properties>
+  </object>
+  <object id="4" name="Impassable" x="448" y="768" width="384" height="128">
+   <properties>
+    <property name="Effect" value="Impassable"/>
+   </properties>
+  </object>
+  <object id="5" name="Impassable" x="448" y="1088" width="384" height="192">
+   <properties>
+    <property name="Effect" value="Impassable"/>
+   </properties>
+  </object>
+  <object id="6" name="Impassable" x="448" y="384" width="384" height="128">
+   <properties>
+    <property name="Effect" value="Impassable"/>
+   </properties>
+  </object>
+  <object id="7" name="Slow" x="64" y="384" width="64" height="64">
+   <properties>
+    <property name="Effect" value="Slow"/>
+    <property name="Movement Speed" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="8" name="Slow" x="128" y="1088" width="64" height="64">
+   <properties>
+    <property name="Effect" value="Slow"/>
+    <property name="Movement Speed" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="10" name="Slow" x="896" y="1088" width="64" height="64">
+   <properties>
+    <property name="Effect" value="Slow"/>
+    <property name="Movement Speed" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="11" name="Slow" x="1152" y="64" width="64" height="64">
+   <properties>
+    <property name="Effect" value="Slow"/>
+    <property name="Movement Speed" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="12" name="Slow" x="256" y="704" width="128" height="128">
+   <properties>
+    <property name="Effect" value="Slow"/>
+    <property name="Movement Speed" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="13" name="Slow" x="960" y="640" width="128" height="128">
+   <properties>
+    <property name="Effect" value="Slow"/>
+    <property name="Movement Speed" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
